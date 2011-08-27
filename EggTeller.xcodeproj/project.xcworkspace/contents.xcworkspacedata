@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Egg Teller.xcodeproj">
+      location = "self:EggTeller.xcodeproj">
    </FileRef>
 </Workspace>

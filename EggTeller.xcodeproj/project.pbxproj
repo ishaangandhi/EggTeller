@@ -28,13 +28,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B8002A1E13DB5B0400F1D453 /* Egg Teller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Teller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8002A1E13DB5B0400F1D453 /* EggTeller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTeller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8002A2213DB5B0400F1D453 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B8002A2413DB5B0400F1D453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8002A2613DB5B0400F1D453 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B8002A2A13DB5B0400F1D453 /* Egg Teller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Egg Teller-Info.plist"; sourceTree = "<group>"; };
+		B8002A2A13DB5B0400F1D453 /* EggTeller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EggTeller-Info.plist"; sourceTree = "<group>"; };
 		B8002A2C13DB5B0400F1D453 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B8002A2E13DB5B0400F1D453 /* Egg Teller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Egg Teller-Prefix.pch"; sourceTree = "<group>"; };
+		B8002A2E13DB5B0400F1D453 /* EggTeller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EggTeller-Prefix.pch"; sourceTree = "<group>"; };
 		B8002A2F13DB5B0400F1D453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8002A3113DB5B0400F1D453 /* Egg_TellerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Egg_TellerAppDelegate.h; sourceTree = "<group>"; };
 		B8002A3213DB5B0400F1D453 /* Egg_TellerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Egg_TellerAppDelegate.m; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		B8002A1F13DB5B0400F1D453 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8002A1E13DB5B0400F1D453 /* Egg Teller.app */,
+				B8002A1E13DB5B0400F1D453 /* EggTeller.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,9 +115,9 @@
 		B8002A2913DB5B0400F1D453 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B8002A2A13DB5B0400F1D453 /* Egg Teller-Info.plist */,
+				B8002A2A13DB5B0400F1D453 /* EggTeller-Info.plist */,
 				B8002A2B13DB5B0400F1D453 /* InfoPlist.strings */,
-				B8002A2E13DB5B0400F1D453 /* Egg Teller-Prefix.pch */,
+				B8002A2E13DB5B0400F1D453 /* EggTeller-Prefix.pch */,
 				B8002A2F13DB5B0400F1D453 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -149,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B8002A1D13DB5B0400F1D453 /* Egg Teller */ = {
+		B8002A1D13DB5B0400F1D453 /* EggTeller */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8002A3F13DB5B0400F1D453 /* Build configuration list for PBXNativeTarget "Egg Teller" */;
+			buildConfigurationList = B8002A3F13DB5B0400F1D453 /* Build configuration list for PBXNativeTarget "EggTeller" */;
 			buildPhases = (
 				B8002A1A13DB5B0400F1D453 /* Sources */,
 				B8002A1B13DB5B0400F1D453 /* Frameworks */,
@@ -161,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = "Egg Teller";
+			name = EggTeller;
 			productName = "Egg Teller";
-			productReference = B8002A1E13DB5B0400F1D453 /* Egg Teller.app */;
+			productReference = B8002A1E13DB5B0400F1D453 /* EggTeller.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +171,7 @@
 /* Begin PBXProject section */
 		B8002A1513DB5B0300F1D453 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = B8002A1813DB5B0300F1D453 /* Build configuration list for PBXProject "Egg Teller" */;
+			buildConfigurationList = B8002A1813DB5B0300F1D453 /* Build configuration list for PBXProject "EggTeller" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,7 +183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B8002A1D13DB5B0400F1D453 /* Egg Teller */,
+				B8002A1D13DB5B0400F1D453 /* EggTeller */,
 			);
 		};
 /* End PBXProject section */
@@ -303,10 +303,10 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Egg Teller/Egg Teller-Prefix.pch";
-				INFOPLIST_FILE = "Egg Teller/Egg Teller-Info.plist";
+				GCC_PREFIX_HEADER = "Egg Teller/EggTeller-Prefix.pch";
+				INFOPLIST_FILE = "Egg Teller/EggTeller-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EggTeller;
 				PROVISIONING_PROFILE = "DF0814F0-8184-4372-9CD3-D1F4BF91378B";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -321,10 +321,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Egg Teller/Egg Teller-Prefix.pch";
-				INFOPLIST_FILE = "Egg Teller/Egg Teller-Info.plist";
+				GCC_PREFIX_HEADER = "Egg Teller/EggTeller-Prefix.pch";
+				INFOPLIST_FILE = "Egg Teller/EggTeller-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EggTeller;
 				PROVISIONING_PROFILE = "DF0814F0-8184-4372-9CD3-D1F4BF91378B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -336,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8002A1813DB5B0300F1D453 /* Build configuration list for PBXProject "Egg Teller" */ = {
+		B8002A1813DB5B0300F1D453 /* Build configuration list for PBXProject "EggTeller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8002A3D13DB5B0400F1D453 /* Debug */,
@@ -345,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8002A3F13DB5B0400F1D453 /* Build configuration list for PBXNativeTarget "Egg Teller" */ = {
+		B8002A3F13DB5B0400F1D453 /* Build configuration list for PBXNativeTarget "EggTeller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8002A4013DB5B0400F1D453 /* Debug */,
