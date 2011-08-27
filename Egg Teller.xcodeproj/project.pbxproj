@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8002A2313DB5B0400F1D453 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8002A2213DB5B0400F1D453 /* UIKit.framework */; };
+		B8002A2513DB5B0400F1D453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8002A2413DB5B0400F1D453 /* Foundation.framework */; };
+		B8002A2713DB5B0400F1D453 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8002A2613DB5B0400F1D453 /* CoreGraphics.framework */; };
+		B8002A2D13DB5B0400F1D453 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8002A2B13DB5B0400F1D453 /* InfoPlist.strings */; };
+		B8002A3013DB5B0400F1D453 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8002A2F13DB5B0400F1D453 /* main.m */; };
+		B8002A3313DB5B0400F1D453 /* Egg_TellerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8002A3213DB5B0400F1D453 /* Egg_TellerAppDelegate.m */; };
+		B8002A3613DB5B0400F1D453 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8002A3413DB5B0400F1D453 /* MainWindow.xib */; };
+		B8002A3913DB5B0400F1D453 /* Egg_TellerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8002A3813DB5B0400F1D453 /* Egg_TellerViewController.m */; };
+		B8002A3C13DB5B0400F1D453 /* Egg_TellerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8002A3A13DB5B0400F1D453 /* Egg_TellerViewController.xib */; };
+		B80EEC4813E227CA00958060 /* crackSoundEffect.aif in Resources */ = {isa = PBXBuildFile; fileRef = B80EEC4713E227CA00958060 /* crackSoundEffect.aif */; };
+		B80EEC4A13E2330A00958060 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EEC4913E2330A00958060 /* AudioToolbox.framework */; };
+		B80F369213DDF1460098F4AD /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80F369013DDF1460098F4AD /* MainWindow-iPad.xib */; };
+		B8CEC5E013DCDA16008E16E0 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CEC5DF13DCDA16008E16E0 /* Background.png */; };
+		B8CEC5E413DCEC36008E16E0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CEC5E313DCEC36008E16E0 /* icon.png */; };
+		B8CEC5E813DCECC6008E16E0 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CEC5E713DCECC6008E16E0 /* icon@2x.png */; };
+		B8CEC5EA13DCF6B7008E16E0 /* crackedEggTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CEC5E913DCF6B7008E16E0 /* crackedEggTwo.png */; };
+		B8CEC5EC13DCF6BE008E16E0 /* crackedEggOne.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CEC5EB13DCF6BE008E16E0 /* crackedEggOne.png */; };
+		B8FF3AF413E2070D00716893 /* splashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FF3AF313E2070D00716893 /* splashScreen.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8002A1E13DB5B0400F1D453 /* Egg Teller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Teller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8002A2213DB5B0400F1D453 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8002A2413DB5B0400F1D453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8002A2613DB5B0400F1D453 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8002A2A13DB5B0400F1D453 /* Egg Teller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Egg Teller-Info.plist"; sourceTree = "<group>"; };
+		B8002A2C13DB5B0400F1D453 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8002A2E13DB5B0400F1D453 /* Egg Teller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Egg Teller-Prefix.pch"; sourceTree = "<group>"; };
+		B8002A2F13DB5B0400F1D453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8002A3113DB5B0400F1D453 /* Egg_TellerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Egg_TellerAppDelegate.h; sourceTree = "<group>"; };
+		B8002A3213DB5B0400F1D453 /* Egg_TellerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Egg_TellerAppDelegate.m; sourceTree = "<group>"; };
+		B8002A3513DB5B0400F1D453 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B8002A3713DB5B0400F1D453 /* Egg_TellerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Egg_TellerViewController.h; sourceTree = "<group>"; };
+		B8002A3813DB5B0400F1D453 /* Egg_TellerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Egg_TellerViewController.m; sourceTree = "<group>"; };
+		B8002A3B13DB5B0400F1D453 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Egg_TellerViewController.xib; sourceTree = "<group>"; };
+		B80EEC4713E227CA00958060 /* crackSoundEffect.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = crackSoundEffect.aif; sourceTree = "<group>"; };
+		B80EEC4913E2330A00958060 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B80F369113DDF1460098F4AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		B8CEC5DF13DCDA16008E16E0 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		B8CEC5E313DCEC36008E16E0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B8CEC5E713DCECC6008E16E0 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		B8CEC5E913DCF6B7008E16E0 /* crackedEggTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crackedEggTwo.png; sourceTree = "<group>"; };
+		B8CEC5EB13DCF6BE008E16E0 /* crackedEggOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crackedEggOne.png; sourceTree = "<group>"; };
+		B8FF3AF313E2070D00716893 /* splashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashScreen.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8002A1B13DB5B0400F1D453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80EEC4A13E2330A00958060 /* AudioToolbox.framework in Frameworks */,
+				B8002A2313DB5B0400F1D453 /* UIKit.framework in Frameworks */,
+				B8002A2513DB5B0400F1D453 /* Foundation.framework in Frameworks */,
+				B8002A2713DB5B0400F1D453 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8002A1313DB5B0300F1D453 = {
+			isa = PBXGroup;
+			children = (
+				B8002A4213DB6BA700F1D453 /* Resources */,
+				B8002A2813DB5B0400F1D453 /* Egg Teller */,
+				B8002A2113DB5B0400F1D453 /* Frameworks */,
+				B8002A1F13DB5B0400F1D453 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8002A1F13DB5B0400F1D453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8002A1E13DB5B0400F1D453 /* Egg Teller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8002A2113DB5B0400F1D453 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B80EEC4913E2330A00958060 /* AudioToolbox.framework */,
+				B8002A2213DB5B0400F1D453 /* UIKit.framework */,
+				B8002A2413DB5B0400F1D453 /* Foundation.framework */,
+				B8002A2613DB5B0400F1D453 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8002A2813DB5B0400F1D453 /* Egg Teller */ = {
+			isa = PBXGroup;
+			children = (
+				B80F368F13DDF1450098F4AD /* iPad */,
+				B8002A3113DB5B0400F1D453 /* Egg_TellerAppDelegate.h */,
+				B8002A3213DB5B0400F1D453 /* Egg_TellerAppDelegate.m */,
+				B8002A3413DB5B0400F1D453 /* MainWindow.xib */,
+				B8002A3713DB5B0400F1D453 /* Egg_TellerViewController.h */,
+				B8002A3813DB5B0400F1D453 /* Egg_TellerViewController.m */,
+				B8002A3A13DB5B0400F1D453 /* Egg_TellerViewController.xib */,
+				B8002A2913DB5B0400F1D453 /* Supporting Files */,
+			);
+			path = "Egg Teller";
+			sourceTree = "<group>";
+		};
+		B8002A2913DB5B0400F1D453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8002A2A13DB5B0400F1D453 /* Egg Teller-Info.plist */,
+				B8002A2B13DB5B0400F1D453 /* InfoPlist.strings */,
+				B8002A2E13DB5B0400F1D453 /* Egg Teller-Prefix.pch */,
+				B8002A2F13DB5B0400F1D453 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8002A4213DB6BA700F1D453 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8CEC5DF13DCDA16008E16E0 /* Background.png */,
+				B8CEC5EB13DCF6BE008E16E0 /* crackedEggOne.png */,
+				B8CEC5E913DCF6B7008E16E0 /* crackedEggTwo.png */,
+				B8CEC5E313DCEC36008E16E0 /* icon.png */,
+				B8CEC5E713DCECC6008E16E0 /* icon@2x.png */,
+				B8FF3AF313E2070D00716893 /* splashScreen.png */,
+				B80EEC4713E227CA00958060 /* crackSoundEffect.aif */,
+			);
+			name = Resources;
+			path = "Egg Teller";
+			sourceTree = "<group>";
+		};
+		B80F368F13DDF1450098F4AD /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				B80F369013DDF1460098F4AD /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8002A1D13DB5B0400F1D453 /* Egg Teller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8002A3F13DB5B0400F1D453 /* Build configuration list for PBXNativeTarget "Egg Teller" */;
+			buildPhases = (
+				B8002A1A13DB5B0400F1D453 /* Sources */,
+				B8002A1B13DB5B0400F1D453 /* Frameworks */,
+				B8002A1C13DB5B0400F1D453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Egg Teller";
+			productName = "Egg Teller";
+			productReference = B8002A1E13DB5B0400F1D453 /* Egg Teller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8002A1513DB5B0300F1D453 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B8002A1813DB5B0300F1D453 /* Build configuration list for PBXProject "Egg Teller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8002A1313DB5B0300F1D453;
+			productRefGroup = B8002A1F13DB5B0400F1D453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8002A1D13DB5B0400F1D453 /* Egg Teller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8002A1C13DB5B0400F1D453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8002A2D13DB5B0400F1D453 /* InfoPlist.strings in Resources */,
+				B8002A3613DB5B0400F1D453 /* MainWindow.xib in Resources */,
+				B8002A3C13DB5B0400F1D453 /* Egg_TellerViewController.xib in Resources */,
+				B8CEC5E013DCDA16008E16E0 /* Background.png in Resources */,
+				B8CEC5E413DCEC36008E16E0 /* icon.png in Resources */,
+				B8CEC5E813DCECC6008E16E0 /* icon@2x.png in Resources */,
+				B8CEC5EA13DCF6B7008E16E0 /* crackedEggTwo.png in Resources */,
+				B8CEC5EC13DCF6BE008E16E0 /* crackedEggOne.png in Resources */,
+				B80F369213DDF1460098F4AD /* MainWindow-iPad.xib in Resources */,
+				B8FF3AF413E2070D00716893 /* splashScreen.png in Resources */,
+				B80EEC4813E227CA00958060 /* crackSoundEffect.aif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8002A1A13DB5B0400F1D453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8002A3013DB5B0400F1D453 /* main.m in Sources */,
+				B8002A3313DB5B0400F1D453 /* Egg_TellerAppDelegate.m in Sources */,
+				B8002A3913DB5B0400F1D453 /* Egg_TellerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8002A2B13DB5B0400F1D453 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8002A2C13DB5B0400F1D453 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8002A3413DB5B0400F1D453 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8002A3513DB5B0400F1D453 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B8002A3A13DB5B0400F1D453 /* Egg_TellerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8002A3B13DB5B0400F1D453 /* en */,
+			);
+			name = Egg_TellerViewController.xib;
+			sourceTree = "<group>";
+		};
+		B80F369013DDF1460098F4AD /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80F369113DDF1460098F4AD /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8002A3D13DB5B0400F1D453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ishaan Gandhi";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "C8B2692F-D0CC-4ECD-8970-13ECEC059559";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8002A3E13DB5B0400F1D453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ishaan Gandhi (BKJ86CX8B4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "DF0814F0-8184-4372-9CD3-D1F4BF91378B";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B8002A4013DB5B0400F1D453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ishaan Gandhi (BKJ86CX8B4)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Egg Teller/Egg Teller-Prefix.pch";
+				INFOPLIST_FILE = "Egg Teller/Egg Teller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DF0814F0-8184-4372-9CD3-D1F4BF91378B";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8002A4113DB5B0400F1D453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ishaan Gandhi (BKJ86CX8B4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Egg Teller/Egg Teller-Prefix.pch";
+				INFOPLIST_FILE = "Egg Teller/Egg Teller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DF0814F0-8184-4372-9CD3-D1F4BF91378B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8002A1813DB5B0300F1D453 /* Build configuration list for PBXProject "Egg Teller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8002A3D13DB5B0400F1D453 /* Debug */,
+				B8002A3E13DB5B0400F1D453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8002A3F13DB5B0400F1D453 /* Build configuration list for PBXNativeTarget "Egg Teller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8002A4013DB5B0400F1D453 /* Debug */,
+				B8002A4113DB5B0400F1D453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8002A1513DB5B0300F1D453 /* Project object */;
+}
