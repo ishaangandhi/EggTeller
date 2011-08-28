@@ -35,12 +35,12 @@
 		B8002A2A13DB5B0400F1D453 /* EggTeller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EggTeller-Info.plist"; sourceTree = "<group>"; };
 		B8002A2C13DB5B0400F1D453 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8002A2E13DB5B0400F1D453 /* EggTeller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EggTeller-Prefix.pch"; sourceTree = "<group>"; };
-		B8002A2F13DB5B0400F1D453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B8002A3113DB5B0400F1D453 /* Egg_TellerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Egg_TellerAppDelegate.h; sourceTree = "<group>"; };
-		B8002A3213DB5B0400F1D453 /* Egg_TellerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Egg_TellerAppDelegate.m; sourceTree = "<group>"; };
+		B8002A2F13DB5B0400F1D453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B8002A3113DB5B0400F1D453 /* Egg_TellerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Egg_TellerAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B8002A3213DB5B0400F1D453 /* Egg_TellerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Egg_TellerAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		B8002A3513DB5B0400F1D453 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		B8002A3713DB5B0400F1D453 /* Egg_TellerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Egg_TellerViewController.h; sourceTree = "<group>"; };
-		B8002A3813DB5B0400F1D453 /* Egg_TellerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Egg_TellerViewController.m; sourceTree = "<group>"; };
+		B8002A3713DB5B0400F1D453 /* Egg_TellerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Egg_TellerViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B8002A3813DB5B0400F1D453 /* Egg_TellerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Egg_TellerViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		B8002A3B13DB5B0400F1D453 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Egg_TellerViewController.xib; sourceTree = "<group>"; };
 		B80EEC4713E227CA00958060 /* crackSoundEffect.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = crackSoundEffect.aif; sourceTree = "<group>"; };
 		B80EEC4913E2330A00958060 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };

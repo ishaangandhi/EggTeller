@@ -3,7 +3,7 @@
 //  Egg Teller
 //
 //  Created by Ishaan Gandhi on 7/23/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Ishaan Gandhi Studios. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
